@@ -58,6 +58,7 @@ class Complexity {
 //        let fib = fibCalculate1(index: 4)
         
         let fib2 = fibCalculate2(index: 4)
+        
         print(fib2)
         
     }

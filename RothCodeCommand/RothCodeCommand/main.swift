@@ -10,10 +10,18 @@ import Foundation
 print("Hello, World!")
 
 /**
+    复杂度
     求 斐波那契数的第n项值
  **/
+
 let fibValue = 4
 Complexity.complexity(fib: fibValue)
+
+/**
+    动态数组
+ **/
+
+let danamicArr = DynamicArray()
 
 
 
