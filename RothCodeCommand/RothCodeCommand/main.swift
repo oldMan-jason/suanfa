@@ -23,6 +23,17 @@ Complexity.complexity(fib: fibValue)
 
 let danamicArr = DynamicArray()
 
+/**
+    判断有效括号 例如： {([])} 有效； {]()} 无效
+ */
+
+//let text = "{[}]"
+//let text = "[{()}]"
+let text = "([)]{}"
+let stack = StackObject();
+let isValid = stack.isValid(text: text)
+print(isValid ? "有效":"无效")
+
 
 
 
