@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83139B2528ACC44C00F94595 /* 有序数组合并.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83139B2428ACC44C00F94595 /* 有序数组合并.swift */; };
 		831CF4BD27A5367D00298916 /* 栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CF4BC27A5367D00298916 /* 栈.swift */; };
 		83B05BF12793FF26008446FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF02793FF26008446FD /* main.swift */; };
 		83B05BF82793FFAF008446FD /* 复杂度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF72793FFAF008446FD /* 复杂度.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		83139B2428ACC44C00F94595 /* 有序数组合并.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "有序数组合并.swift"; sourceTree = "<group>"; };
 		831CF4BC27A5367D00298916 /* 栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "栈.swift"; sourceTree = "<group>"; };
 		83B05BED2793FF26008446FD /* RothCodeCommand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RothCodeCommand; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B05BF02793FF26008446FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		83139B2328ACC18E00F94595 /* 算法三季 */ = {
+			isa = PBXGroup;
+			children = (
+				83139B2428ACC44C00F94595 /* 有序数组合并.swift */,
+			);
+			name = "算法三季";
+			sourceTree = "<group>";
+		};
 		83B05BE42793FF26008446FD = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +83,7 @@
 				831CF4BC27A5367D00298916 /* 栈.swift */,
 				83B2A5A927A9152700C659C0 /* 队列.swift */,
 				83C0055A2851D5BC00893932 /* 算法 */,
+				83139B2328ACC18E00F94595 /* 算法三季 */,
 			);
 			path = RothCodeCommand;
 			sourceTree = "<group>";
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83B05BF12793FF26008446FD /* main.swift in Sources */,
+				83139B2528ACC44C00F94595 /* 有序数组合并.swift in Sources */,
 				83B05BF82793FFAF008446FD /* 复杂度.swift in Sources */,
 				831CF4BD27A5367D00298916 /* 栈.swift in Sources */,
 				83C0055C2851D5F600893932 /* FindCode.swift in Sources */,
@@ -274,7 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J9NBUFPPP4;
+				DEVELOPMENT_TEAM = NFCJTR9ZQL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -285,7 +297,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = J9NBUFPPP4;
+				DEVELOPMENT_TEAM = NFCJTR9ZQL;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
