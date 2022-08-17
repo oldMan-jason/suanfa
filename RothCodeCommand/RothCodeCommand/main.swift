@@ -43,6 +43,14 @@ let find = FindClassObject()
 let isExsit = find.findValue(arr: array, arguments: 4)
 print(isExsit)
 
+/**
+ 冒泡排序
+ */
+let paixu = PaixuClass()
+//paixu.maopao()
+//paixu.choice()
+paixu.insertFun()
+
 /**算法三季练习**/
 let sortArr = SortArrayObject()
 sortArr.sortValues2()
