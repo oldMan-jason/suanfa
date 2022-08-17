@@ -64,6 +64,17 @@
 			name = "算法三季";
 			sourceTree = "<group>";
 		};
+		83139B2A28AD00AC00F94595 /* 算法一季 */ = {
+			isa = PBXGroup;
+			children = (
+				83B05BF72793FFAF008446FD /* 复杂度.swift */,
+				83B05BF927941A56008446FD /* 动态数组.swift */,
+				831CF4BC27A5367D00298916 /* 栈.swift */,
+				83B2A5A927A9152700C659C0 /* 队列.swift */,
+			);
+			name = "算法一季";
+			sourceTree = "<group>";
+		};
 		83B05BE42793FF26008446FD = {
 			isa = PBXGroup;
 			children = (
@@ -84,10 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				83B05BF02793FF26008446FD /* main.swift */,
-				83B05BF72793FFAF008446FD /* 复杂度.swift */,
-				83B05BF927941A56008446FD /* 动态数组.swift */,
-				831CF4BC27A5367D00298916 /* 栈.swift */,
-				83B2A5A927A9152700C659C0 /* 队列.swift */,
+				83139B2A28AD00AC00F94595 /* 算法一季 */,
 				83C0055A2851D5BC00893932 /* 算法 */,
 				83139B2328ACC18E00F94595 /* 算法三季 */,
 			);

@@ -47,7 +47,7 @@ class SortPartArrayObject {
                 }
             }
             let rang = [l,r];
-            print(rang)
+            print("排序的区间\(rang)")
             return rang
     }
     

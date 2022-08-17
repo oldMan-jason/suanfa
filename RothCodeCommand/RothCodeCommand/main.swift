@@ -44,11 +44,11 @@ let isExsit = find.findValue(arr: array, arguments: 4)
 print(isExsit)
 
 /**算法三季练习**/
-//let sortArr = SortArrayObject()
-//sortArr.sortValues2()
-//
-//let color = ColourObject()
-//color.sortValue3()
+let sortArr = SortArrayObject()
+sortArr.sortValues2()
+
+let color = ColourObject()
+color.sortValue3()
 
 let partSort = SortPartArrayObject()
 partSort.sortPartArray()
