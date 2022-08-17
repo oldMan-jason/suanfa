@@ -12,5 +12,14 @@
 import Cocoa
 
 class MyQueue: NSObject {
+    
+    
+    func inQueue<T>(element:T) {
+    
+    }
+    
+    func deQueue() {
+        
+    }
 
 }

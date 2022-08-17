@@ -12,6 +12,7 @@
 		83B05BF82793FFAF008446FD /* 复杂度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF72793FFAF008446FD /* 复杂度.swift */; };
 		83B05BFA27941A56008446FD /* 动态数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF927941A56008446FD /* 动态数组.swift */; };
 		83B2A5AA27A9152700C659C0 /* 队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B2A5A927A9152700C659C0 /* 队列.swift */; };
+		83C0055C2851D5F600893932 /* FindCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C0055B2851D5F600893932 /* FindCode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		83B05BF72793FFAF008446FD /* 复杂度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "复杂度.swift"; sourceTree = "<group>"; };
 		83B05BF927941A56008446FD /* 动态数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态数组.swift"; sourceTree = "<group>"; };
 		83B2A5A927A9152700C659C0 /* 队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "队列.swift"; sourceTree = "<group>"; };
+		83C0055B2851D5F600893932 /* FindCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindCode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,8 +72,17 @@
 				83B05BF927941A56008446FD /* 动态数组.swift */,
 				831CF4BC27A5367D00298916 /* 栈.swift */,
 				83B2A5A927A9152700C659C0 /* 队列.swift */,
+				83C0055A2851D5BC00893932 /* 算法 */,
 			);
 			path = RothCodeCommand;
+			sourceTree = "<group>";
+		};
+		83C0055A2851D5BC00893932 /* 算法 */ = {
+			isa = PBXGroup;
+			children = (
+				83C0055B2851D5F600893932 /* FindCode.swift */,
+			);
+			name = "算法";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +146,7 @@
 				83B05BF12793FF26008446FD /* main.swift in Sources */,
 				83B05BF82793FFAF008446FD /* 复杂度.swift in Sources */,
 				831CF4BD27A5367D00298916 /* 栈.swift in Sources */,
+				83C0055C2851D5F600893932 /* FindCode.swift in Sources */,
 				83B2A5AA27A9152700C659C0 /* 队列.swift in Sources */,
 				83B05BFA27941A56008446FD /* 动态数组.swift in Sources */,
 			);

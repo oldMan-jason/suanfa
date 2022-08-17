@@ -35,5 +35,11 @@ let isValid = stack.isValid(text: text)
 print(isValid ? "有效":"无效")
 
 
-
+/**
+ 二分查找
+ */
+let array :[Int] = [1,4,12,6,2,19,80]
+let find = FindClassObject()
+let isExsit = find.findValue(arr: array, arguments: 4)
+print(isExsit)
 
