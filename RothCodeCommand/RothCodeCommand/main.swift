@@ -38,10 +38,30 @@ print(isValid ? "有效":"无效")
 /**
     二分查找
  */
-let array :[Int] = [1,4,12,6,2,19,80]
+let array :[Int] = [1,4,6,12,19,80]
 let find = FindClassObject()
-let isExsit = find.findValue(arr: array, arguments: 4)
-print(isExsit)
+
+/**
+ 插值查找
+ */
+let array1 :[Int] = [1,4,6,12,19,80]
+let esixt = find.found(array: array1, obj: 6)
+print(esixt)
+
+/**二叉树**/
+//构建树
+let rootNode = Node(value: 45)
+let left = Node(value: 24)
+let right = Node(value: 53)
+left.left = Node(value: 12)
+left.right = Node(value: 37)
+right.right = Node(value: 93)
+rootNode.left = left
+rootNode.right = right
+//测试
+//let exsit = find.find3(root: rootNode, obj: 37)
+//print(exsit)
+
 
 /**
  冒泡排序
@@ -60,4 +80,19 @@ color.sortValue3()
 
 let partSort = SortPartArrayObject()
 partSort.sortPartArray()
+
+/**
+ 算法面试
+ */
+//字符串反转
+let iterfaceObject = InterfaceObject()
+iterfaceObject.charRevers(str: "hello,word")
+
+iterfaceObject.setupNodeListData()
+iterfaceObject.arrTest()
+
+var str: String = "adacdffegh"
+iterfaceObject.findChar(str: str)
+
+
 
