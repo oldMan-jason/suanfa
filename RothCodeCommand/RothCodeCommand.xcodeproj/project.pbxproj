@@ -12,6 +12,13 @@
 		83139B2928ACE88400F94595 /* 部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83139B2828ACE88400F94595 /* 部分排序.swift */; };
 		831CF4BD27A5367D00298916 /* 栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CF4BC27A5367D00298916 /* 栈.swift */; };
 		83217DF229028BC500B85429 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83217DF129028BC500B85429 /* Interface.swift */; };
+		83607855290AA944007CB788 /* 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83607854290AA944007CB788 /* 两数相加.swift */; };
+		83607857290BB61B007CB788 /* 回文链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83607856290BB61B007CB788 /* 回文链表.swift */; };
+		83607859290CF32E007CB788 /* 最小栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83607858290CF32E007CB788 /* 最小栈.swift */; };
+		8360785B290CF84A007CB788 /* 滑动窗口最大值.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360785A290CF84A007CB788 /* 滑动窗口最大值.swift */; };
+		8360785D290D39BB007CB788 /* 最大二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360785C290D39BB007CB788 /* 最大二叉树.swift */; };
+		8360785F290D6489007CB788 /* 每日温度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8360785E290D6489007CB788 /* 每日温度.swift */; };
+		83607861290D6F20007CB788 /* 字符串轮转.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83607860290D6F20007CB788 /* 字符串轮转.swift */; };
 		83B05BF12793FF26008446FD /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF02793FF26008446FD /* main.swift */; };
 		83B05BF82793FFAF008446FD /* 复杂度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF72793FFAF008446FD /* 复杂度.swift */; };
 		83B05BFA27941A56008446FD /* 动态数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF927941A56008446FD /* 动态数组.swift */; };
@@ -39,6 +46,13 @@
 		83139B2828ACE88400F94595 /* 部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "部分排序.swift"; sourceTree = "<group>"; };
 		831CF4BC27A5367D00298916 /* 栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "栈.swift"; sourceTree = "<group>"; };
 		83217DF129028BC500B85429 /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
+		83607854290AA944007CB788 /* 两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "两数相加.swift"; sourceTree = "<group>"; };
+		83607856290BB61B007CB788 /* 回文链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "回文链表.swift"; sourceTree = "<group>"; };
+		83607858290CF32E007CB788 /* 最小栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最小栈.swift"; sourceTree = "<group>"; };
+		8360785A290CF84A007CB788 /* 滑动窗口最大值.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "滑动窗口最大值.swift"; sourceTree = "<group>"; };
+		8360785C290D39BB007CB788 /* 最大二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "最大二叉树.swift"; sourceTree = "<group>"; };
+		8360785E290D6489007CB788 /* 每日温度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "每日温度.swift"; sourceTree = "<group>"; };
+		83607860290D6F20007CB788 /* 字符串轮转.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "字符串轮转.swift"; sourceTree = "<group>"; };
 		83B05BED2793FF26008446FD /* RothCodeCommand */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RothCodeCommand; sourceTree = BUILT_PRODUCTS_DIR; };
 		83B05BF02793FF26008446FD /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		83B05BF72793FFAF008446FD /* 复杂度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "复杂度.swift"; sourceTree = "<group>"; };
@@ -67,6 +81,13 @@
 				83139B2628ACD7A700F94595 /* 颜色分类.swift */,
 				83139B2828ACE88400F94595 /* 部分排序.swift */,
 				83DB0A3928ADED0400613796 /* 移除链表元素.swift */,
+				83607854290AA944007CB788 /* 两数相加.swift */,
+				83607856290BB61B007CB788 /* 回文链表.swift */,
+				83607858290CF32E007CB788 /* 最小栈.swift */,
+				8360785A290CF84A007CB788 /* 滑动窗口最大值.swift */,
+				8360785C290D39BB007CB788 /* 最大二叉树.swift */,
+				8360785E290D6489007CB788 /* 每日温度.swift */,
+				83607860290D6F20007CB788 /* 字符串轮转.swift */,
 			);
 			name = "算法三季";
 			sourceTree = "<group>";
@@ -195,15 +216,22 @@
 			files = (
 				83B05BF12793FF26008446FD /* main.swift in Sources */,
 				83DB0A3A28ADED0400613796 /* 移除链表元素.swift in Sources */,
+				83607861290D6F20007CB788 /* 字符串轮转.swift in Sources */,
 				83139B2528ACC44C00F94595 /* 有序数组合并.swift in Sources */,
 				83B05BF82793FFAF008446FD /* 复杂度.swift in Sources */,
 				831CF4BD27A5367D00298916 /* 栈.swift in Sources */,
+				83607859290CF32E007CB788 /* 最小栈.swift in Sources */,
 				83139B2928ACE88400F94595 /* 部分排序.swift in Sources */,
+				83607855290AA944007CB788 /* 两数相加.swift in Sources */,
+				8360785F290D6489007CB788 /* 每日温度.swift in Sources */,
+				8360785D290D39BB007CB788 /* 最大二叉树.swift in Sources */,
 				DD98DB1E28AD2B46003F5AF1 /* 排序.swift in Sources */,
+				83607857290BB61B007CB788 /* 回文链表.swift in Sources */,
 				83139B2728ACD7A700F94595 /* 颜色分类.swift in Sources */,
 				83C0055C2851D5F600893932 /* FindCode.swift in Sources */,
 				83B2A5AA27A9152700C659C0 /* 队列.swift in Sources */,
 				83B05BFA27941A56008446FD /* 动态数组.swift in Sources */,
+				8360785B290CF84A007CB788 /* 滑动窗口最大值.swift in Sources */,
 				83217DF229028BC500B85429 /* Interface.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

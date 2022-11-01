@@ -15,12 +15,9 @@ class InterfaceObject: NSObject {
     
     var arrhash: [Int] = Array(repeating: 0, count: 256)
     
-    
     func arrTest() -> Void {
         arrayMerge(arr1: array1, arr2: array2)
     }
-    
-    
     
 }
 
@@ -125,6 +122,48 @@ extension InterfaceObject {
     
 }
 
+/**无重复字符的最长子串*/
+extension InterfaceObject {
+    
+    /**通过两个指针来进行遍历，右指针负责单个字符遍历，判断当前的字符是否在集合中，如果不在就添加进去，更新长度值，右指针++，否则，左
+     指针右移动，删除集合中左指针对应的字符，左指针++，长度记录值--。直到右指针对应的字符在集合中没有为止。
+     **/
+    func findLength(str: String) -> Int {
+        
+        var left = 0
+        var right = 0
+        var length = 0
+        var maxLength = 0
+        
+        var set: [Character] = [Character]()
+        //将字符串转成数组
+        let chars = Array(str)
+        
+        while (right < chars.count) {
+            
+            if (!set.contains(chars[right])) {
+                set.append(chars[right])
+                right += 1
+                length += 1
+                maxLength = max(length, maxLength)
+                
+            }else{
+                
+                while set.contains(chars[right]) {
+                    set.remove(at: left)
+                    left += 1
+                    length -= 1
+                }
+                
+                set.append(chars[right])
+                right += 1
+            }
+        }
+        
+        return maxLength
+    }
+}
+
 extension InterfaceObject {
     
     //链表反转
@@ -132,7 +171,7 @@ extension InterfaceObject {
         
         var point = firstNode
         var newHead: ListNodeModel?
-        
+            
         while point != nil {
             
             let temp = point?.nextNode
@@ -144,6 +183,7 @@ extension InterfaceObject {
             point = temp
         }
         
+        print(newHead)
         
     }
     
@@ -188,6 +228,20 @@ class ListNodeModel {
     
     init(data: Int) {
         self.data = data
+    }
+    
+}
+
+
+/**爬楼梯,有点类似菲波拉契数**/
+extension InterfaceObject {
+    
+    func climbStairs(step: Int) -> Int {
+        
+        if step == 1 || step == 0 {
+            return 1
+        }
+        return climbStairs(step: step - 1) +  climbStairs(step: step - 2)
     }
     
 }

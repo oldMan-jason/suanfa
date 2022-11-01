@@ -7,7 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+/** 算法第一季*/
 
 /**
     复杂度
@@ -42,13 +42,15 @@ let array :[Int] = [1,4,6,12,19,80]
 let find = FindClassObject()
 
 /**
- 插值查找
+    插值查找
  */
 let array1 :[Int] = [1,4,6,12,19,80]
 let esixt = find.found(array: array1, obj: 6)
 print(esixt)
 
-/**二叉树**/
+/**
+    二叉树
+ **/
 //构建树
 let rootNode = Node(value: 45)
 let left = Node(value: 24)
@@ -64,12 +66,15 @@ rootNode.right = right
 
 
 /**
- 冒泡排序
+    冒泡排序
  */
 let paixu = PaixuClass()
 //paixu.maopao()
 //paixu.choice()
 paixu.insertFun()
+
+
+
 
 /**算法三季练习**/
 let sortArr = SortArrayObject()
@@ -81,6 +86,37 @@ color.sortValue3()
 let partSort = SortPartArrayObject()
 partSort.sortPartArray()
 
+//两个链表节点相加
+let nodes1Valus = [2,4,3]
+let nodes2Valus = [5,6,4]
+let sub = SumNodesObject()
+let firstNode = sub.setupNode(nodeArr: nodes1Valus)
+let secondNode = sub.setupNode(nodeArr: nodes2Valus)
+let h = sub.sumNodeData(firstNode: firstNode, lastNode: secondNode)
+print(h)
+
+//滑动窗口
+let window = SolutionWindow()
+let arr = [1,7,5,3,-3,-1,8,2]
+
+//let arr1 = [9,11]
+window.maxSlidingWindow(arr, 3)
+
+//每日温度
+let temper = SolutionTemperatures()
+let temperatures = [73,74,75,71,69,72,76,73]
+let temperatures1 = [30,40,50,60]
+let temperatures2 = [30,60,90]
+let _ = temper.dailyTemperatures(temperatures2)
+
+//字符串轮转
+let solutionFliped = SolutionFliped()
+//let boolValue = solutionFliped.isFlipedString("waterbottle", "erbottlewat")
+let boolValue = solutionFliped.isFlipedString("", "")
+print(boolValue)
+
+
+
 /**
  算法面试
  */
@@ -88,8 +124,9 @@ partSort.sortPartArray()
 let iterfaceObject = InterfaceObject()
 iterfaceObject.charRevers(str: "hello,word")
 
-iterfaceObject.setupNodeListData()
+let fi = iterfaceObject.setupNodeListData()
 iterfaceObject.arrTest()
+iterfaceObject.nodeListRevers(firstNode: fi)
 
 var str: String = "adacdffegh"
 iterfaceObject.findChar(str: str)
