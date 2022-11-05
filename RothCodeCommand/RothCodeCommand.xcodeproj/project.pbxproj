@@ -10,6 +10,7 @@
 		83139B2528ACC44C00F94595 /* 有序数组合并.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83139B2428ACC44C00F94595 /* 有序数组合并.swift */; };
 		83139B2728ACD7A700F94595 /* 颜色分类.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83139B2628ACD7A700F94595 /* 颜色分类.swift */; };
 		83139B2928ACE88400F94595 /* 部分排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83139B2828ACE88400F94595 /* 部分排序.swift */; };
+		831CDCC429138F0700B84316 /* 翻转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CDCC329138F0700B84316 /* 翻转字符串.swift */; };
 		831CF4BD27A5367D00298916 /* 栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 831CF4BC27A5367D00298916 /* 栈.swift */; };
 		83217DF229028BC500B85429 /* Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83217DF129028BC500B85429 /* Interface.swift */; };
 		83607855290AA944007CB788 /* 两数相加.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83607854290AA944007CB788 /* 两数相加.swift */; };
@@ -44,6 +45,7 @@
 		83139B2428ACC44C00F94595 /* 有序数组合并.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "有序数组合并.swift"; sourceTree = "<group>"; };
 		83139B2628ACD7A700F94595 /* 颜色分类.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "颜色分类.swift"; sourceTree = "<group>"; };
 		83139B2828ACE88400F94595 /* 部分排序.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "部分排序.swift"; sourceTree = "<group>"; };
+		831CDCC329138F0700B84316 /* 翻转字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "翻转字符串.swift"; sourceTree = "<group>"; };
 		831CF4BC27A5367D00298916 /* 栈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "栈.swift"; sourceTree = "<group>"; };
 		83217DF129028BC500B85429 /* Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interface.swift; sourceTree = "<group>"; };
 		83607854290AA944007CB788 /* 两数相加.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "两数相加.swift"; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				8360785C290D39BB007CB788 /* 最大二叉树.swift */,
 				8360785E290D6489007CB788 /* 每日温度.swift */,
 				83607860290D6F20007CB788 /* 字符串轮转.swift */,
+				831CDCC329138F0700B84316 /* 翻转字符串.swift */,
 			);
 			name = "算法三季";
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				8360785F290D6489007CB788 /* 每日温度.swift in Sources */,
 				8360785D290D39BB007CB788 /* 最大二叉树.swift in Sources */,
 				DD98DB1E28AD2B46003F5AF1 /* 排序.swift in Sources */,
+				831CDCC429138F0700B84316 /* 翻转字符串.swift in Sources */,
 				83607857290BB61B007CB788 /* 回文链表.swift in Sources */,
 				83139B2728ACD7A700F94595 /* 颜色分类.swift in Sources */,
 				83C0055C2851D5F600893932 /* FindCode.swift in Sources */,
