@@ -127,6 +127,8 @@ extension InterfaceObject {
     
     /**通过两个指针来进行遍历，右指针负责单个字符遍历，判断当前的字符是否在集合中，如果不在就添加进去，更新长度值，右指针++，否则，左
      指针右移动，删除集合中左指针对应的字符，左指针++，长度记录值--。直到右指针对应的字符在集合中没有为止。
+     
+     adacdffegh
      **/
     func findLength(str: String) -> Int {
         
@@ -182,8 +184,6 @@ extension InterfaceObject {
             
             point = temp
         }
-        
-        print(newHead)
         
     }
     

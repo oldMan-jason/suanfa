@@ -25,9 +25,6 @@ class PaixuClass {
                 }
             }
         }
-        
-        print(array)
-        
     }
     
     /***
