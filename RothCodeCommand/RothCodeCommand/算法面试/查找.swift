@@ -124,8 +124,4 @@ class FindClassObject {
         
         return false
     }
-    
-    
-    
-    
 }

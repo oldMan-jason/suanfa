@@ -7,7 +7,7 @@
 
 import Foundation
 
-/** 算法第一季*/
+//MARK: 算法第一季
 
 /**
     复杂度
@@ -35,6 +35,47 @@ let isValid = stack.isValid(text: text)
 print(isValid ? "有效":"无效")
 
 
+//MARK: 算法第三季
+let sortArr = SortArrayObject()
+sortArr.sortValues2()
+
+let color = ColourObject()
+color.sortValue3()
+
+let partSort = SortPartArrayObject()
+let _ = partSort.sortPartArray()
+
+
+//两个链表节点相加
+let nodes1Valus = [2,4,3]
+let nodes2Valus = [5,6,4]
+let sub = SumNodesObject()
+let firstNode = sub.setupNode(nodeArr: nodes1Valus)
+let secondNode = sub.setupNode(nodeArr: nodes2Valus)
+let h = sub.sumNodeData(firstNode: firstNode, lastNode: secondNode)
+print(h)
+
+//滑动窗口
+let window = SolutionWindow()
+let arr = [1,7,5,3,-3,-1,8,2]
+
+//let arr1 = [9,11]
+let _ = window.maxSlidingWindow(arr, 3)
+
+//每日温度
+let temper = SolutionTemperatures()
+let temperatures = [73,74,75,71,69,72,76,73]
+let temperatures1 = [30,40,50,60]
+let temperatures2 = [30,60,90]
+let _ = temper.dailyTemperatures(temperatures2)
+
+//字符串轮转
+let solutionFliped = SolutionFliped()
+//let boolValue = solutionFliped.isFlipedString("waterbottle", "erbottlewat")
+let boolValue = solutionFliped.isFlipedString("", "")
+print(boolValue)
+
+//MARK: 算法面试
 /**
     二分查找
  */
@@ -73,53 +114,6 @@ let paixu = PaixuClass()
 //paixu.choice()
 paixu.insertFun()
 
-
-
-
-/**算法三季练习**/
-let sortArr = SortArrayObject()
-sortArr.sortValues2()
-
-let color = ColourObject()
-color.sortValue3()
-
-let partSort = SortPartArrayObject()
-partSort.sortPartArray()
-
-//两个链表节点相加
-let nodes1Valus = [2,4,3]
-let nodes2Valus = [5,6,4]
-let sub = SumNodesObject()
-let firstNode = sub.setupNode(nodeArr: nodes1Valus)
-let secondNode = sub.setupNode(nodeArr: nodes2Valus)
-let h = sub.sumNodeData(firstNode: firstNode, lastNode: secondNode)
-print(h)
-
-//滑动窗口
-let window = SolutionWindow()
-let arr = [1,7,5,3,-3,-1,8,2]
-
-//let arr1 = [9,11]
-window.maxSlidingWindow(arr, 3)
-
-//每日温度
-let temper = SolutionTemperatures()
-let temperatures = [73,74,75,71,69,72,76,73]
-let temperatures1 = [30,40,50,60]
-let temperatures2 = [30,60,90]
-let _ = temper.dailyTemperatures(temperatures2)
-
-//字符串轮转
-let solutionFliped = SolutionFliped()
-//let boolValue = solutionFliped.isFlipedString("waterbottle", "erbottlewat")
-let boolValue = solutionFliped.isFlipedString("", "")
-print(boolValue)
-
-
-
-/**
- 算法面试
- */
 //字符串反转
 let iterfaceObject = InterfaceObject()
 iterfaceObject.charRevers(str: "hello,word")
@@ -131,5 +125,11 @@ iterfaceObject.nodeListRevers(firstNode: fi)
 var str: String = "adacdffegh"
 iterfaceObject.findChar(str: str)
 
+//MARK: 力扣算法
 
+//let nums = [1,3,5,6]
+let nums = [1,3,5,6]
+
+let index = LeetCodeSolution3().searchInsert(nums, 7)
+print(index)
 
