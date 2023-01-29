@@ -31,6 +31,8 @@
 		DDF9081F2985498200B557E2 /* 01二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9081E2985498200B557E2 /* 01二分查找.swift */; };
 		DDF908212985540000B557E2 /* 02第一个错误版本.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF908202985540000B557E2 /* 02第一个错误版本.swift */; };
 		DDF908232985606F00B557E2 /* 03搜索插入位置.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF908222985606F00B557E2 /* 03搜索插入位置.swift */; };
+		DDF908252985FBEA00B557E2 /* 04有序数组的平方.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF908242985FBEA00B557E2 /* 04有序数组的平方.swift */; };
+		DDF908272986118A00B557E2 /* 05轮转数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF908262986118A00B557E2 /* 05轮转数组.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +73,8 @@
 		DDF9081E2985498200B557E2 /* 01二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01二分查找.swift"; sourceTree = "<group>"; };
 		DDF908202985540000B557E2 /* 02第一个错误版本.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "02第一个错误版本.swift"; sourceTree = "<group>"; };
 		DDF908222985606F00B557E2 /* 03搜索插入位置.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "03搜索插入位置.swift"; sourceTree = "<group>"; };
+		DDF908242985FBEA00B557E2 /* 04有序数组的平方.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "04有序数组的平方.swift"; sourceTree = "<group>"; };
+		DDF908262986118A00B557E2 /* 05轮转数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "05轮转数组.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +171,8 @@
 				DDF9081E2985498200B557E2 /* 01二分查找.swift */,
 				DDF908202985540000B557E2 /* 02第一个错误版本.swift */,
 				DDF908222985606F00B557E2 /* 03搜索插入位置.swift */,
+				DDF908242985FBEA00B557E2 /* 04有序数组的平方.swift */,
+				DDF908262986118A00B557E2 /* 05轮转数组.swift */,
 			);
 			path = "算法入门";
 			sourceTree = "<group>";
@@ -229,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDF908272986118A00B557E2 /* 05轮转数组.swift in Sources */,
 				83B05BF12793FF26008446FD /* main.swift in Sources */,
 				83A592C8291D3AED0005F3A2 /* 二叉树.swift in Sources */,
 				83DB0A3A28ADED0400613796 /* 移除链表元素.swift in Sources */,
@@ -240,6 +247,7 @@
 				831CF4BD27A5367D00298916 /* 栈.swift in Sources */,
 				83607859290CF32E007CB788 /* 最小栈.swift in Sources */,
 				83139B2928ACE88400F94595 /* 部分排序.swift in Sources */,
+				DDF908252985FBEA00B557E2 /* 04有序数组的平方.swift in Sources */,
 				DDF908212985540000B557E2 /* 02第一个错误版本.swift in Sources */,
 				83607855290AA944007CB788 /* 两数相加.swift in Sources */,
 				8360785F290D6489007CB788 /* 每日温度.swift in Sources */,

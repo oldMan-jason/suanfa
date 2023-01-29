@@ -133,3 +133,15 @@ let nums = [1,3,5,6]
 let index = LeetCodeSolution3().searchInsert(nums, 7)
 print(index)
 
+//let nums4 = [-4,-1,0,3,10]
+let nums4 = [-1,2,2]
+let arr4 = LeetCodeSolution4().sortedSquares1(nums4)
+print(arr4)
+
+//轮转数组
+//var nums5 = [1,2,3,4,5,6,7]
+var nums5 = [-1,-100,3,99]
+//var nums5 = [1,2]
+//var nums5 = [1,2]
+LeetCodeSolution5().rotate(&nums5, 2)
+
