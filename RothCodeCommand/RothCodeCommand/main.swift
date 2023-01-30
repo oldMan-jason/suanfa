@@ -34,6 +34,10 @@ let stack = StackObject();
 let isValid = stack.isValid(text: text)
 print(isValid ? "有效":"无效")
 
+//二叉树
+let tree = TreeObject()
+
+
 
 //MARK: 算法第三季
 let sortArr = SortArrayObject()
