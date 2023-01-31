@@ -149,3 +149,22 @@ var nums5 = [-1,-100,3,99]
 //var nums5 = [1,2]
 LeetCodeSolution5().rotate(&nums5, 2)
 
+//移动零
+var nums6 = [0,1,0,3,12]
+LeetCodeSolution6().moveZeroes(&nums6)
+
+//两数之和
+//var nums7 = [2,7,11,15]
+var nums7 = [-7,-2,11,14,15]
+//var nums7 = [2,3,4]
+//var nums7 = [-1,0]
+let result = LeetCodeSolution7().twoSum(nums7, 9)
+print(result)
+
+//反转字符串
+var charsData:[Character] = ["H","a","n","n","a","h"]
+LeetCodeSolution8().reverseString(&charsData)
+
+//反转字符串中的单词
+var words = "Let's take LeetCode contest"
+LeetCodeSolution9().reverseWords(words)

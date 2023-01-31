@@ -25,6 +25,10 @@
 		83B05BF82793FFAF008446FD /* 复杂度.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF72793FFAF008446FD /* 复杂度.swift */; };
 		83B05BFA27941A56008446FD /* 动态数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83B05BF927941A56008446FD /* 动态数组.swift */; };
 		83DB0A3A28ADED0400613796 /* 移除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83DB0A3928ADED0400613796 /* 移除链表元素.swift */; };
+		DDB9EC4A29874A05009B9496 /* 06移动零.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB9EC4929874A05009B9496 /* 06移动零.swift */; };
+		DDC8787129890B9E003A6F55 /* 09反转字符串中的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8786E29890B9D003A6F55 /* 09反转字符串中的单词.swift */; };
+		DDC8787229890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8786F29890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift */; };
+		DDC8787329890B9E003A6F55 /* 08反转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8787029890B9E003A6F55 /* 08反转字符串.swift */; };
 		DDF9081C2985491C00B557E2 /* 排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9081A2985491C00B557E2 /* 排序.swift */; };
 		DDF9081D2985491C00B557E2 /* 查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9081B2985491C00B557E2 /* 查找.swift */; };
 		DDF9081F2985498200B557E2 /* 01二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9081E2985498200B557E2 /* 01二分查找.swift */; };
@@ -66,6 +70,10 @@
 		83B05BF72793FFAF008446FD /* 复杂度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "复杂度.swift"; sourceTree = "<group>"; };
 		83B05BF927941A56008446FD /* 动态数组.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "动态数组.swift"; sourceTree = "<group>"; };
 		83DB0A3928ADED0400613796 /* 移除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "移除链表元素.swift"; sourceTree = "<group>"; };
+		DDB9EC4929874A05009B9496 /* 06移动零.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "06移动零.swift"; sourceTree = "<group>"; };
+		DDC8786E29890B9D003A6F55 /* 09反转字符串中的单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "09反转字符串中的单词.swift"; sourceTree = "<group>"; };
+		DDC8786F29890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "07两数之和 II - 输入有序数组.swift"; sourceTree = "<group>"; };
+		DDC8787029890B9E003A6F55 /* 08反转字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "08反转字符串.swift"; sourceTree = "<group>"; };
 		DDF9081A2985491C00B557E2 /* 排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "排序.swift"; sourceTree = "<group>"; };
 		DDF9081B2985491C00B557E2 /* 查找.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "查找.swift"; sourceTree = "<group>"; };
 		DDF9081E2985498200B557E2 /* 01二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01二分查找.swift"; sourceTree = "<group>"; };
@@ -170,6 +178,10 @@
 				DDF908222985606F00B557E2 /* 03搜索插入位置.swift */,
 				DDF908242985FBEA00B557E2 /* 04有序数组的平方.swift */,
 				DDF908262986118A00B557E2 /* 05轮转数组.swift */,
+				DDB9EC4929874A05009B9496 /* 06移动零.swift */,
+				DDC8786F29890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift */,
+				DDC8787029890B9E003A6F55 /* 08反转字符串.swift */,
+				DDC8786E29890B9D003A6F55 /* 09反转字符串中的单词.swift */,
 			);
 			path = "算法入门";
 			sourceTree = "<group>";
@@ -233,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DDF908272986118A00B557E2 /* 05轮转数组.swift in Sources */,
+				DDC8787329890B9E003A6F55 /* 08反转字符串.swift in Sources */,
 				83B05BF12793FF26008446FD /* main.swift in Sources */,
 				83A592C8291D3AED0005F3A2 /* 二叉树.swift in Sources */,
 				83DB0A3A28ADED0400613796 /* 移除链表元素.swift in Sources */,
@@ -248,6 +261,8 @@
 				DDF908212985540000B557E2 /* 02第一个错误版本.swift in Sources */,
 				83607855290AA944007CB788 /* 两数相加.swift in Sources */,
 				8360785F290D6489007CB788 /* 每日温度.swift in Sources */,
+				DDC8787229890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift in Sources */,
+				DDC8787129890B9E003A6F55 /* 09反转字符串中的单词.swift in Sources */,
 				8360785D290D39BB007CB788 /* 最大二叉树.swift in Sources */,
 				831CDCC429138F0700B84316 /* 翻转字符串.swift in Sources */,
 				83607857290BB61B007CB788 /* 回文链表.swift in Sources */,
@@ -257,6 +272,7 @@
 				8360785B290CF84A007CB788 /* 滑动窗口最大值.swift in Sources */,
 				83217DF229028BC500B85429 /* Interface.swift in Sources */,
 				DDF9081F2985498200B557E2 /* 01二分查找.swift in Sources */,
+				DDB9EC4A29874A05009B9496 /* 06移动零.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
