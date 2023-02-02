@@ -29,6 +29,8 @@
 		DDC8787129890B9E003A6F55 /* 09反转字符串中的单词.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8786E29890B9D003A6F55 /* 09反转字符串中的单词.swift */; };
 		DDC8787229890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8786F29890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift */; };
 		DDC8787329890B9E003A6F55 /* 08反转字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC8787029890B9E003A6F55 /* 08反转字符串.swift */; };
+		DDC87876298AA668003A6F55 /* 11删除链表的倒数第N个节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC87874298AA667003A6F55 /* 11删除链表的倒数第N个节点.swift */; };
+		DDC87877298AA668003A6F55 /* 10链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC87875298AA668003A6F55 /* 10链表的中间结点.swift */; };
 		DDF9081C2985491C00B557E2 /* 排序.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9081A2985491C00B557E2 /* 排序.swift */; };
 		DDF9081D2985491C00B557E2 /* 查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9081B2985491C00B557E2 /* 查找.swift */; };
 		DDF9081F2985498200B557E2 /* 01二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9081E2985498200B557E2 /* 01二分查找.swift */; };
@@ -74,6 +76,8 @@
 		DDC8786E29890B9D003A6F55 /* 09反转字符串中的单词.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "09反转字符串中的单词.swift"; sourceTree = "<group>"; };
 		DDC8786F29890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "07两数之和 II - 输入有序数组.swift"; sourceTree = "<group>"; };
 		DDC8787029890B9E003A6F55 /* 08反转字符串.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "08反转字符串.swift"; sourceTree = "<group>"; };
+		DDC87874298AA667003A6F55 /* 11删除链表的倒数第N个节点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "11删除链表的倒数第N个节点.swift"; sourceTree = "<group>"; };
+		DDC87875298AA668003A6F55 /* 10链表的中间结点.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "10链表的中间结点.swift"; sourceTree = "<group>"; };
 		DDF9081A2985491C00B557E2 /* 排序.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "排序.swift"; sourceTree = "<group>"; };
 		DDF9081B2985491C00B557E2 /* 查找.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "查找.swift"; sourceTree = "<group>"; };
 		DDF9081E2985498200B557E2 /* 01二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "01二分查找.swift"; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				DDC8786F29890B9E003A6F55 /* 07两数之和 II - 输入有序数组.swift */,
 				DDC8787029890B9E003A6F55 /* 08反转字符串.swift */,
 				DDC8786E29890B9D003A6F55 /* 09反转字符串中的单词.swift */,
+				DDC87875298AA668003A6F55 /* 10链表的中间结点.swift */,
+				DDC87874298AA667003A6F55 /* 11删除链表的倒数第N个节点.swift */,
 			);
 			path = "算法入门";
 			sourceTree = "<group>";
@@ -248,9 +254,11 @@
 				DDC8787329890B9E003A6F55 /* 08反转字符串.swift in Sources */,
 				83B05BF12793FF26008446FD /* main.swift in Sources */,
 				83A592C8291D3AED0005F3A2 /* 二叉树.swift in Sources */,
+				DDC87876298AA668003A6F55 /* 11删除链表的倒数第N个节点.swift in Sources */,
 				83DB0A3A28ADED0400613796 /* 移除链表元素.swift in Sources */,
 				83607861290D6F20007CB788 /* 字符串轮转.swift in Sources */,
 				DDF908232985606F00B557E2 /* 03搜索插入位置.swift in Sources */,
+				DDC87877298AA668003A6F55 /* 10链表的中间结点.swift in Sources */,
 				DDF9081C2985491C00B557E2 /* 排序.swift in Sources */,
 				83139B2528ACC44C00F94595 /* 有序数组合并.swift in Sources */,
 				83B05BF82793FFAF008446FD /* 复杂度.swift in Sources */,
