@@ -11,7 +11,7 @@ import Foundation
 
 class LeetCodeSolution4 {
     
-    //双指针算法
+    //双指针算法，比较绝对值，数值大的从数组末尾插入，移动指针位置
     func sortedSquares1(_ nums: [Int]) -> [Int] {
         
         var left = 0

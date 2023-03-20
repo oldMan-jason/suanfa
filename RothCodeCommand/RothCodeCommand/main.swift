@@ -149,3 +149,53 @@ var nums5 = [-1,-100,3,99]
 //var nums5 = [1,2]
 LeetCodeSolution5().rotate(&nums5, 2)
 
+//移动零
+var nums6 = [0,1,0,3,12]
+LeetCodeSolution6().moveZeroes(&nums6)
+
+//两数之和
+//var nums7 = [2,7,11,15]
+var nums7 = [-7,-2,11,14,15]
+//var nums7 = [2,3,4]
+//var nums7 = [-1,0]
+let result = LeetCodeSolution7().twoSum(nums7, 9)
+print(result)
+
+//反转字符串
+var charsData:[Character] = ["H","a","n","n","a","h"]
+LeetCodeSolution8().reverseString(&charsData)
+
+//反转字符串中的单词
+var words = "Let's take LeetCode contest"
+LeetCodeSolution9().reverseWords(words)
+
+//链表中间结点
+let head = SinglyListNode(1)
+let second = SinglyListNode(2)
+let third = SinglyListNode(3)
+let fourth = SinglyListNode(4)
+let five = SinglyListNode(5)
+head.next = second
+second.next = third
+third.next = fourth
+fourth.next = five
+LeetCodeSolution10().middleNode(head)
+
+//删除链表倒数第N个结点
+let head11 = ListNode(val: 1)
+let second11 = ListNode(val: 2)
+let third11 = ListNode(val: 3)
+let fourth11 = ListNode(val: 4)
+let five11 = ListNode(val: 5)
+head11.next = second11
+second11.next = third11
+third11.next = fourth11
+fourth11.next = five11
+LeetCodeSolution11().removeNthFromEnd2(head11, 2)
+
+//无重复字符的最长子串长度
+let str12 = "abcabcbb"
+let length12 = LeetCodeSolution12().lengthOfLongestSubstring(str12)
+print(length12)
+
+
